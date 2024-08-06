@@ -1,16 +1,16 @@
-button {
+.icon-button {
     border: none;
     background-color: transparent;
-    transition: box-shadow 1s,
-                background-color 1s;
+    transition: box-shadow 0.5s,
+                background-color 0.5s;
     border-radius: 15px;
-    width: 90%;
+    width: 70%;
     padding: 5px;
 }
 
-button:hover {
+.icon-button:hover {
     cursor: pointer;
-    background-color: var(--dark-green);
+    background-color: var(--white);
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -50,11 +50,16 @@ button:hover {
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
 .icon {
     width: 50px;
     height: auto;
+}
+
+#selected {
+    background-color: var(--white);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }

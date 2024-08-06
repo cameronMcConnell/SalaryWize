@@ -1,8 +1,8 @@
-#primary-container {
-  display: flex;
-}
-
 #content-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: calc(100vw - 160px);
   margin-left: 100px;
   padding: 20px;
 }
