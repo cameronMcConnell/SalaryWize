@@ -1,0 +1,8 @@
+#primary-container {
+  display: flex;
+}
+
+#content-container {
+  margin-left: 100px;
+  padding: 20px;
+}
