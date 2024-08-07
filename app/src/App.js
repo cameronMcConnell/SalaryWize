@@ -20,7 +20,7 @@ export default function App() {
       case 3:
         return <Monitor />;
       default:
-        return <p>Error</p>;
+        return <h1>Error</h1>;
     }
   }
 

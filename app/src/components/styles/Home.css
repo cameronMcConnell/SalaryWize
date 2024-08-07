@@ -1,0 +1,29 @@
+.panorama {
+    width: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.row-gap {
+    row-gap: 16px;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.column-gap {
+    column-gap: 16px;
+}
+
+.calculator {
+    width: 35%;
+    height: auto;
+    border-radius: 15px;
+}
