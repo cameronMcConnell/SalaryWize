@@ -22,6 +22,10 @@
     column-gap: 16px;
 }
 
+.ul-left-margin {
+    margin-left: 20px;
+}
+
 .calculator {
     width: 35%;
     height: auto;

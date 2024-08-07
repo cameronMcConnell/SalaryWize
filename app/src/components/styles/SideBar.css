@@ -1,8 +1,8 @@
 .icon-button {
     border: none;
     background-color: transparent;
-    transition: box-shadow 0.5s,
-                background-color 0.5s;
+    transition: box-shadow 0.3s,
+                background-color 0.3s;
     border-radius: 15px;
     width: 70%;
     padding: 5px;
@@ -39,6 +39,10 @@
 
 .row-gap {
     row-gap: 16px;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }
 
 .full-width {

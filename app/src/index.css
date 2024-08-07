@@ -6,15 +6,11 @@
 }
 
 :root {
-  --white: #f3eff5;
+  --white: #ffffff;
   --grey: #30383b;
   --black: #0d0a0b;
   --light-green: #72b01d;
   --dark-green: #3f7d20;
-}
-
-#root {
-  padding: 20px;
 }
 
 @font-face {
