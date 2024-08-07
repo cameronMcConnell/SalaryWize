@@ -12,6 +12,13 @@
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
+.login-input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: var(--grey);
+    font-weight: bold;
+}
+
 .input-container {
     width: 70%;
     font-size: 20px;

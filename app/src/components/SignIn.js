@@ -16,11 +16,11 @@ export default function SignIn({ account, setSignedIn }) {
                     <div className="flex-grow flex-column row-gap input-position">
                         <div className="flex-column row-gap input-container">
                             <label for="username"><strong>Username</strong></label>
-                            <input placeholder="Type your username" name="username" type="text"></input>
+                            <input className="login-input" placeholder="Type your username" name="username" type="text"></input>
                         </div>
                         <div className="flex-column row-gap input-container">
                             <label for="password"><strong>Password</strong></label>
-                            <input placeholder="Type your password" name="password" type="password"></input>
+                            <input className="login-input" placeholder="Type your password" name="password" type="password"></input>
                         </div>
                         <button className="switch-button"><strong>Sign Up</strong></button>
                         <button className="submit-button" onClick={() => setSignedIn(true)}><strong>Submit</strong></button>
